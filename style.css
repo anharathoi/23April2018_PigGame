@@ -1,0 +1,115 @@
+.gameScope{
+    /* height: 600px;
+    width: 750px; */
+    border: #f4f4f4 2px solid;
+    margin: 100px auto;
+    overflow: visible;
+    font-family: sans-serif;
+    padding: none;
+    width: 900px;
+    position: relative;
+}
+.active{
+    background-color: #f5eeee;
+    width:49%;
+    border: #f6f6f6 2px solid;
+    float: left;
+}
+
+.player-0{
+    
+    width:49%;
+    border: #f6f6f6 2px solid;
+    float: left;
+}
+.player-1{
+    
+    width: 49%;
+    border:#f6f6f6 2px solid;
+    margin: 0px;
+    float: right;
+    
+}
+.player-name{
+    text-align: center;
+    padding:20px 20px;
+    font-size: 2em;   
+}
+
+
+.total-score{
+    text-align: center;
+    top: 20px;
+    font-size: 45px;
+    color: rgb(196, 21, 50);
+}
+
+.current-score{
+    text-align: center;
+    display:flex; /*need to learn about flexbox*/
+    align-items: center;
+    justify-content: center;
+    font-family:arial; 
+    height: 100px;
+    width: 100px;
+    background-color: #d1b2c2;
+    margin: 150px 130px 20px 170px;
+    padding: 0px;
+    font-size: 30px;
+    color: white;
+    border-radius: 20%;
+
+}
+
+.buttons button{
+    text-align: center;
+    left: 397px;
+    
+}
+#restart-button{
+    
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    top: 60px;
+    width: 100px;
+    height: 30px;
+}
+#roll-button{
+    transition: width, color;
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    top: 330px;
+}
+#hold-button{
+    
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    padding: 10px;
+    text-align: center;
+    top: 290px;
+}
+button:hover{
+    font-weight: bold;
+    font-size: 12px;
+}
+/* .dice{
+    border: #8a8484 solid 1px;
+    box-shadow: 5px 5px #f6f4f4;
+} */
+.dice {
+    border: #8a8484 solid 1px;
+    position: absolute;
+    height: 100px;
+    top: 137px;
+    left: 394px; 
+}
+
+.clearfix{
+    overflow:both;
+}
+
